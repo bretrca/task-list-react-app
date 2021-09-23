@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Form{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+
+}
+.AddButton{
+  border-radius: 2.5rem;
+  background:rgba(188, 238, 154, 0.719); 
+  background-position: left top;
+  padding: 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+}
+.AddButton:hover {
+  box-shadow: 2px 2px grey;
+  transition-duration: 500ms;
+}
+.Buttons{
+  margin: 1rem;
+}
+.ElementListComponent{
+  display: flex;
+  background-color: rgb(233, 227, 233);
+  align-items: center;
+}
